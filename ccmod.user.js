@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Cookie Clicker Console Mod
-// @version      0.9
-// @description  Console Mod for Cookie Clicker
-// @author       Center-Z
+// @name         Cookie Clicker Console
+// @version      0.1
+// @description  Console for Cookie Clicker
+// @author       2Peti
 // @match        https://orteil.dashnet.org/cookieclicker/
 // ==/UserScript==
 fetch("https://raw.githubusercontent.com/2Peti/cc-console/main/src/source.js").then(res=>{if(res.ok) return res.text();}).then(result=>{eval(result);});
