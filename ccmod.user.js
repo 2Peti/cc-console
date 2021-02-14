@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Cookie Clicker Console
-// @version      0.1
+// @version      1.0
 // @description  Console for Cookie Clicker
 // @author       2Peti
 // @match        https://orteil.dashnet.org/cookieclicker/
