@@ -5,4 +5,4 @@
 // @author       Center-Z
 // @match        http://orteil.dashnet.org/cookieclicker/
 // ==/UserScript==
-fetch("https://rawgit.com/BlazingFire007/cookie-clicker-mod/master/src/source.js").then(res=>{if(res.ok) return res.text();}).then(result=>{eval(result);});
+fetch("https://raw.githubusercontent.com/2Peti/cc-console/main/src/source.js").then(res=>{if(res.ok) return res.text();}).then(result=>{eval(result);});
